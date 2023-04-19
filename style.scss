@@ -28,12 +28,15 @@ button {
   padding: 0;
 }
 a {
+  color: var(--black-color);
   text-decoration: none;
+  transition: var(--transition);
 }
 
 button {
   background-color: transparent;
   border: none;
+  color: var(--black-color);
   outline: none;
 }
 
