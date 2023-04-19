@@ -21,19 +21,20 @@ header {
     gap: var(--gap);
   }
   .header__buttons {
+    width: 208px;
     display: flex;
     gap: var(--gap);
   }
-
+}
   .navigation ul {
     display: flex;
     gap: calc(var(--gap) * 2);
     font: var(--smaller-font);
     text-transform: uppercase;
   }
-}
 
-.header__logo {
+
+.logo {
   width: 150px;
   height: 35px;
 }
