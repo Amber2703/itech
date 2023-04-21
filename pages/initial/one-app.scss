@@ -12,7 +12,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background-image: url("./../../assets/images/initial/one-app-bubble.png");
+    background-image: url("assets/images/initial/one-app-bubble.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,15 +20,6 @@
     overflow: clip;
 
     animation: rotate-center 100s linear infinite both;
-
-    @keyframes rotate-center {
-      0% {
-        transform: rotate(0);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
   }
 
   &__container {
